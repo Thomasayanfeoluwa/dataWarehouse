@@ -1,0 +1,60 @@
+{
+  "seed": 42,
+  "sklearn": "1.6.1",
+  "review_population_pages": 21758,
+  "clients": 30,
+  "base_rate": 0.514,
+  "top500_reason_codes": {
+    "visibility_gaps": 204,
+    "page_age_or_length": 123,
+    "weak_position_or_ctr": 81,
+    "keyword_or_source": 69,
+    "weak_engagement": 20,
+    "volume_pattern": 3
+  },
+  "top500_confidence": {
+    "lower": 308,
+    "higher": 192
+  },
+  "top500_protect_check": 107,
+  "precision_at_k": {
+    "K": [
+      10,
+      50,
+      100,
+      200,
+      500,
+      1000,
+      2000
+    ],
+    "queue": [
+      0.7,
+      0.78,
+      0.83,
+      0.82,
+      0.796,
+      0.763,
+      0.72
+    ],
+    "week4_rule": [
+      0.5,
+      0.68,
+      0.64,
+      0.63,
+      0.618,
+      0.606,
+      0.566
+    ]
+  },
+  "decay_rate_by_reason_code_top2000": {
+    "page_age_or_length": 0.642,
+    "weak_engagement": 0.691,
+    "keyword_or_source": 0.714,
+    "visibility_gaps": 0.774,
+    "weak_position_or_ctr": 0.876
+  },
+  "assumptions": {
+    "minutes_per_review": 15,
+    "click_value": "clicks x CPC (proxy, not revenue)"
+  }
+}
